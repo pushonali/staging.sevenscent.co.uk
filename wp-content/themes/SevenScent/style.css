@@ -1,0 +1,65 @@
+/*
+Theme Name: SevenScent
+Theme URI: http://www.sevenscent.co.uk
+Author: PushOn
+*/
+
+body{font-family:arial; color:#868686; font-size:10pt;}
+p{line-height:18px;}
+
+.wrapper{width:940px; margin:0px auto;}
+.left-tab{border-left:32px solid #efc42d;}
+.right-tab{border-right:28px solid #d16895;}
+.clear{margin:0; padding:0; clear:both; overflow: hidden;}
+
+header, .headertab{}
+header nav{background-color:#b5b5b5; float:left; height:36px; width:100%;}
+header nav li{float:left; position:relative; line-height:36px; padding:0px 10px;}
+header nav ul ul{background:#b5b5b5; display:none; position: absolute; top:36px; left:0px; float:left; width:200px; z-index:9999;}
+header nav a{display:block; text-decoration:none; color:#fff; font-weight: bold;}
+header nav ul li:hover > ul{display:block;}
+header nav ul li:hover{background:#7864a5;}
+header nav ul li a:hover{color:#fff;}
+header nav ul ul li a{line-height:1em; padding:10px; width:160px; height:auto; color:#585857;}
+header nav ul ul ul{position:absolute; top:0px; left:200px;}
+
+.contentarea{}
+    .contentarea strong{font-weight:bold;}
+    .contentarea ol, .contentarea ul{list-style:disc; margin-left:20px;}
+    .contentarea li{line-height:25px;}
+    .contentarea a{color:#dd951b;}
+    .contentarea a:hover{color:#7864A5;}
+    
+
+    
+section.left-contentarea{width:476px; float:left; border-left:24px solid #dd951b; min-height:550px; padding-right:40px;}
+    #orange{background:url('images/green.jpg') repeat-y;}
+    #green{background:url('images/green.jpg') repeat-y;}
+section.left-contentarea h1{font-weight:bold; font-size: 21pt; color:#dd951b; margin:10px 0px;}
+section.left-contentarea h2{font-size:16pt; color:#868686; margin:10px 0px;}
+section.left-contentarea p{margin:15px 0px;}
+
+section.mid-contentarea{width:240px; float:left;}
+section.right-contentarea{width:140px; float: right; border-left:20px solid #f3d25e;}
+
+.content{padding:15px;}
+
+#news article{padding:12px 0px; border-bottom:1px solid #ccc;}
+#news h2{color:#7864a5; font-weight:bold; margin:10px 0;}
+#news article a{line-height:20px; color:#333; text-decoration:none;}
+#news article a:hover{text-decoration: underline;}
+
+#news-area{}
+#news-area article{border:none; padding:5px 0px;}
+#news-area h1{font-size:21pt; color:#54b948; font-size:bold; margin:5px 0px 20px 0px; font-weight: normal;}
+#news-area article h2{font-size:14pt; color:#868686; font-size:bold; margin:0px;}
+
+
+
+footer{background-color:#b5b5b5; height:50px; width:1000px; margin:0px auto;}
+footer p, footer nav{line-height: 50px; font-weight: bold; color:#fff;}
+footer p{float:left; margin-left:20px;}
+footer nav{float:right; margin-right: 5px;}
+footer nav ul li{float:left; color:#fff; margin:0 15px;}
+footer nav ul li a{color:#fff; text-decoration: none; font-weight: bold;}
+footer nav ul li a:hover{text-decoration:underline;}
